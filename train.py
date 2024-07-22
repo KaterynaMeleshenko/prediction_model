@@ -33,7 +33,7 @@ y_pred = model.predict(X_test)
 
 # Evaluate the model
 rmse = mean_squared_error(y_test, y_pred, squared=False)
-print(f'RMSE: {rmse}')
+print(f'RMSE: {rmse}') # Output of RMSE is about 0.25 which given the scale refers to good model's performance
 
 # Check the coefficients
 coefficients = pd.DataFrame(model.coef_, X.columns, columns=['Coefficient'])
