@@ -48,19 +48,23 @@ Make sure you have Python 3.10 or later installed on your system.
 
 2. Create and activate a virtual environment:
 
+   ```bash
    python3.10 -m venv myenv
    source myenv/bin/activate  # On Windows, use `myenv\Scripts\activate`
 
 3. Install the required packages:
 
+   ```bash
    pip install -r requirements.txt
 
 ### Running the code
 
 1. Train the model:
 
+   ```bash
    python train.py
 
 2. Make predictions:
 
+   ```bash
    python predict.py
